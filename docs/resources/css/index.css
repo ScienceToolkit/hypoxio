@@ -1,20 +1,20 @@
 /* Set the font family */
 h1 {
-    font-family: Roboto;
+    font-family: sans-serif;
     font-weight: bold;
     font-size: 2em
 }
 h2 {
-    font-family: Roboto;
+    font-family: sans-serif;
     font-weight: bold;
     font-size: 1.5em
 }
 h3 {
-    font-family: Roboto;
+    font-family: sans-serif;
     font-weight: normal;
     font-size: 1.5em
 }
-p {font-family: Roboto;}
+p {font-family: sans-serif;}
 
 a:link{
     color: #0d8ca9;
