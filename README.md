@@ -1,2 +1,2 @@
 # hypoxio
-A tilt system for PreSens SensorDish incubation to mix media in response to local oxygen depletion.
+Hypoxio is a solution to the problem of pericellular hypoxia in cell culture. It uses a motorized tilt table to perturb standing media and reduce the formation of oxygen gradients in cell culture. To visit the hypoxio documentation page, click [here](https://stuartlab.github.io/hypoxio/). If you are looking for the binary downloads, please click [here](https://github.com/StuartLab/hypoxio/releases).
