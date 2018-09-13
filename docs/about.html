@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Requires CSS and JS resources -->
+<head>
+    <title>Hypoxio</title>
+    <link rel="stylesheet" type="text/css" href="resources\css\index.css">
+</head>
+
+<body>
+
+<!-- Generate tabbed header structure -->
+<div id="aboutHeader" class="tabheader" style="display: block;">
+  <h1>About Hypoxio</h1>
+  <p>A solution to the problem of pericellular hypoxia in cell culture.</p>
+</div>
+
+<button id = "aboutOpen" class="tablink" onclick="location.href='about.html'">About</button>
+<button id = "hardwareOpen" class="tablink" onclick="location.href='hardware.html'">Hardware</button>
+<button id = "applicationOpen" class="tablink" onclick="location.href='application.html'">Desktop Application</button>
+
+<!-- About Content -->
+<div id="aboutContent" class="tabcontent">
+  <p>Hypoxio software drives a simple tilt table device to disrupt standing oxygen gradients developing during cell culture. It works in conjunction with <a href="https://www.presens.de/products/detail/sdr-sensordishr-reader-basic-set.html" target="_blank">PreSens SensorDish</a> hardware to mix standing media as oxygen is depletion at the growth layer is detected. The hardware schematics and software source code used to interface with the PreSens system are made openly available here.</p>
+  <p>Downloadable binaries and links to the source code repository can be found at the bottom of the page. Bugs and other issues can be submitted through the issue tracker, also available at the bottom of the page. </p>
+
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <div style="float: left;">
+        <p><b>Hypoxio.</b></p>
+        <p><i>Take control of hypoxia.</i></p>
+    </div>
+    <div style="float: right; padding: 0% 5% 0% 0%">
+        <div style="float: left; padding:0em 2em 0em 0em">
+            <a href="https://github.com/StuartLab/hypoxio/releases" target="_blank"><img src="resources/images/download.png" title="Download the desktop application." width="48px" height="48px" /></a>
+            <p><b>Download</b></p>
+        </div>
+        <div style="float: left; padding:0em 2em 0em 0em">
+            <a href="https://github.com/StuartLab/hypoxio/issues" target="_blank"><img src="resources/images/issues.png" title="Report an issue or feature request." width="48px" height="48px" /></a>
+            <p><b>Issues</b></p>
+        </div>
+        <div style="float: right;">
+            <a href="https://github.com/StuartLab/hypoxio" target="_blank"><img src="resources/images/octocat.png" title="Source code on GitHub." width="48px" height="48px" /></a>
+            <p><b>GitHub</b></p>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="resources\js\index.js"></script>
+
+</html>
