@@ -1,0 +1,81 @@
+/* Set the font family */
+h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.5em
+}
+h2 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.25em
+}
+h3 {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 1.25em
+}
+p {
+    font-family: sans-serif;
+}
+
+a:link{
+    color: #0d8ca9;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Style the tab buttons */
+.tablink {
+    background-color: blue;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1em 1em;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    width: 33.3%;
+}
+
+/* Set default styles for tab header */
+.tabheader {
+    background-color: #659DBD;
+    color: white;
+    display: none;
+    padding: 1em;
+    border-radius: 1em 1em 0em 0em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tabcontent {
+    display: none;
+    padding: 5em;
+    text-align: justify;
+}
+
+/* Footer styling */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #505050;
+    color: white;
+    display: block;
+    padding: 1em;
+    font-weight: lighter;
+    text-align: left;
+}
+
+#aboutOpen {border-radius: 0em 0em 0em 1em}
+#applicationOpen {border-radius: 0em 0em 1em 0em}
+
+#aboutHeader {background-color: #0d8ca9}
+#hardwareHeader {background-color: #a3a971}
+#applicationHeader {background-color: #cebf84}
+
+#aboutOpen {background-color: #0d8ca9}
+#hardwareOpen {background-color: #a3a971}
+#applicationOpen {background-color: #cebf84}
